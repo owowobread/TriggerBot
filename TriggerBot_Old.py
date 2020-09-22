@@ -88,17 +88,15 @@ Main commands:
 /del <trigger>
 Other Commands:
 /about
-/source
 /all
 '''
 
 about_text = '''
-Created by @Sanguchi in 60 minutes :P
-[Source Code on Github](https://github.com/sanguchi/TriggerBot/)
+Created by @SirChad in 25 minutes :P
 '''
 
 
-# Adds another trigger-response. ex: "/add Hi / Hi!! :DD"
+# Adds another trigger-response. ex: "/add Hello / Yo!! :DD"
 @bot.message_handler(commands=['add'])
 def add_trigger(m):
     if(len(m.text.split()) > 1):
