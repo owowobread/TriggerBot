@@ -13,7 +13,7 @@ tokenf = "token.txt"
 ignored = []
 separator = '/'
 
-admins = [59802458]
+admins = [1115929317]
 
 
 def is_recent(m):
