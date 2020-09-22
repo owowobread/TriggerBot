@@ -1,2 +1,2 @@
-worker: python2 TriggerBot_Old.py
+worker: python3 TriggerBotMarkov.py
 ps:scale worker=1
