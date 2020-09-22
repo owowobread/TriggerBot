@@ -1,1 +1,1 @@
-app: python TriggerBot_old.py
+app: python2 TriggerBot_old.py
