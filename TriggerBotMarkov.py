@@ -94,7 +94,7 @@ except ApiException:
 
 # Return a TGUser instance based on telegram message instance.
 def get_user_from_message(message: telebot.types.Message):
-    if(message.forward_from):
+    if(message.forward_from) -> TGUserModel:
         logging.debug("Received a forwarded message.")
         user = message.forward_from  # If it was forwarder from a user, return forwarded message's user.
     elif(message.reply_to_message):
